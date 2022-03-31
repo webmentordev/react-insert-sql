@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+    font-weight: 900;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+@keyframes loading {
+    0%{
+        transform: rotate(0deg);
+    }100%{
+        transform: rotate(360deg);
+    }
+}
+
+.loading-div{
+    text-align: center;
+}
+
+.loading{
+    animation: loading 5s linear infinite;
+    width: 250px;
+    margin: auto;
+}
+
+.loading-2{
+    animation: loading 10s linear infinite;
+}
